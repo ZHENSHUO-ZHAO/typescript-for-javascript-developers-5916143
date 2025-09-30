@@ -1,4 +1,4 @@
-type User = { id: number; name: string; role: string };
+type User = { id: number; name: string; role: "admin" | "user" | "guest" };
 type Age = { age: number };
 
 // Sample data
